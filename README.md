@@ -7,8 +7,8 @@
 * **No commits straight to develop**
 
 ### Branches:
-* **Name:** Branch name should always be the same as a corresponding JIRA ticked code, ex. `CB-100`. In case your branch has no JIRA ticket (which shouldn't happen), make sure to give it a short hyphen separated name that makes sense, ex. `android-billing-refactoring`.
-* **Rebase:** If you are working on your feature branch alone, make sure to always pull with `--rebase` to avoid unneccessary merge commits.
+* **Name:** Branch name should always have a short meaningful name separated by hyphen, and a ticket code, ex. `android-billing-refactoring-CB-100`. Sitatuion, when branch doesn't have corresponding JIRA ticked code should never happen.
+* **Rebase:** If you are working on your feature branch alone, make sure to always pull with `--rebase` to avoid unneccessary merge commits. To do so, run the following command: `git config --global branch.autosetuprebase always`
 
 ### Pull Requests:
 * **Name:** Pull request's name must start from project name prefix and have JIRA ticket code wraped in square brackets at the end, for example: "CoreBase: Your new feature name [CB-100]". Pull request's description must contain a link to corresponding JIRA ticket.
