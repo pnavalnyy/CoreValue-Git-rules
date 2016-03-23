@@ -1,8 +1,8 @@
 ## CoreValue GitHub rules:
 
 ### Commits:
-* **Project name prefix:** Use project name as a prefix of commit message, for example: "Android: Add login screen", "iOS: Time reporting screen redesign", "CoreBase: Redesign phase 1", etc.
-* **JIRA ticket code:** Always add JIRA ticket code wraped in square brackets to the end of your commit message, example: "CoreBase: Redesign Lists page [CB-75]".
+* **JIRA ticket code:** Always add JIRA ticket code wraped in square brackets to the end of your commit message, example: "CoreBase: Redesign Lists page **[CB-75]**".
+* **Sub-project's name prefix:** If project consists of several sub-projects like iOS app, Android app, web app, etc, use sub-project's name as a prefix of commit message, for example: "**Android:** Add login screen [CB-101]", "**iOS:** Time reporting screen redesign [CB-102]", "**CoreBase:** Redesign phase 1 [CB-103]", etc.
 * **Clean commits:** Commits must only contain changes related to the task/feature you are working on.
 * **No commits straight to develop**
 
