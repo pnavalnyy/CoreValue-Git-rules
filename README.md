@@ -7,7 +7,7 @@
 * **No commits straight to develop**
 
 ### Branches:
-* **Name:** Branch name should always be the same as a corresponding JIRA ticked code, ex. `CB-100`. In case your branch has no JIRA ticket (which shouldn't happen), make sure to give it a short hyphen separated name that makes sense, ex. `android-billing-refactoring`.
+* **Name:** Branch name should always start with a corresponding JIRA ticked code following by a short meaningful name, ex. `CB-100-android-billing-refactoring`. Your branch **must always** have a corresponding JIRA ticket.
 * **Rebase:** If you are working on your feature branch alone, make sure to always pull with `--rebase` to avoid unneccessary merge commits.
 
 ### Pull Requests:
